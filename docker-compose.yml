@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  wep-api:
+    container_name: web-api
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+    ports:
+      - '3000:80'

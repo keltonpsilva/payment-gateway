@@ -14,21 +14,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 		.github\workflows\ci-pipeline.yml = .github\workflows\ci-pipeline.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.Domain", "src\PaymentGateway.Domain\PaymentGateway.Domain.csproj", "{C0855CB0-7966-4655-90C8-36531C5F00E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentGateway.Domain", "src\PaymentGateway.Domain\PaymentGateway.Domain.csproj", "{C0855CB0-7966-4655-90C8-36531C5F00E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.Application", "src\PaymentGateway.Application\PaymentGateway.Application.csproj", "{56FD899E-12C8-4A79-A694-659E3C13FCF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentGateway.Application", "src\PaymentGateway.Application\PaymentGateway.Application.csproj", "{56FD899E-12C8-4A79-A694-659E3C13FCF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.Infrastructure", "src\PaymentGateway.Infrastructure\PaymentGateway.Infrastructure.csproj", "{2F4E39F8-F01E-41D7-BC17-35E2ACE0D237}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentGateway.Infrastructure", "src\PaymentGateway.Infrastructure\PaymentGateway.Infrastructure.csproj", "{2F4E39F8-F01E-41D7-BC17-35E2ACE0D237}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.WebAPI", "src\PaymentGateway.WebAPI\PaymentGateway.WebAPI.csproj", "{5A7977C8-346D-4FF1-AC58-2778A001AC37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentGateway.WebAPI", "src\PaymentGateway.WebAPI\PaymentGateway.WebAPI.csproj", "{5A7977C8-346D-4FF1-AC58-2778A001AC37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.WebAPI.Unit.Tests", "tests\PaymentGateway.WebAPI.Unit.Tests\PaymentGateway.WebAPI.Unit.Tests.csproj", "{0D72A35A-BA80-4083-8433-3CFF971B389A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentGateway.WebAPI.Unit.Tests", "tests\PaymentGateway.WebAPI.Unit.Tests\PaymentGateway.WebAPI.Unit.Tests.csproj", "{0D72A35A-BA80-4083-8433-3CFF971B389A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.WebAPI.Integration.Tests", "tests\PaymentGateway.WebAPI.Integration.Tests\PaymentGateway.WebAPI.Integration.Tests.csproj", "{7E7916E7-6920-4D19-A673-DB46FCF80BD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentGateway.WebAPI.Integration.Tests", "tests\PaymentGateway.WebAPI.Integration.Tests\PaymentGateway.WebAPI.Integration.Tests.csproj", "{7E7916E7-6920-4D19-A673-DB46FCF80BD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.Infrastructure.Unit.Tests", "tests\PaymentGateway.Infrastructure.Unit.Tests\PaymentGateway.Infrastructure.Unit.Tests.csproj", "{600F45C2-2839-42D8-BD3E-A0AF9940AC32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentGateway.Infrastructure.Unit.Tests", "tests\PaymentGateway.Infrastructure.Unit.Tests\PaymentGateway.Infrastructure.Unit.Tests.csproj", "{600F45C2-2839-42D8-BD3E-A0AF9940AC32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.Infrastructure.Integration.Tests", "tests\PaymentGateway.Infrastructure.Integration.Tests\PaymentGateway.Infrastructure.Integration.Tests.csproj", "{F92D57E2-B050-468D-B87B-F6EA796FA2E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentGateway.Infrastructure.Integration.Tests", "tests\PaymentGateway.Infrastructure.Integration.Tests\PaymentGateway.Infrastructure.Integration.Tests.csproj", "{F92D57E2-B050-468D-B87B-F6EA796FA2E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{26008C34-28DD-4B00-A0F1-259124C7F81D}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
