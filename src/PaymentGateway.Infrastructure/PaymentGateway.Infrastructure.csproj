@@ -14,4 +14,8 @@
     <ProjectReference Include="..\PaymentGateway.Application\PaymentGateway.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+
 </Project>
